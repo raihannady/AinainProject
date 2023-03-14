@@ -1,0 +1,48 @@
+/* Untuk Tablet dan Smartphones */
+@media (max-width: 991.98px) {
+  .header {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .header-logo p {
+    font-size: 17px;
+  }
+
+  .header-list .home {
+    display: none;
+  }
+
+  .header-list .services {
+    display: none;
+  }
+
+  .header-list .about {
+    display: none;
+  }
+
+  .header-list .prices {
+    display: none;
+  }
+
+  .header-list .gallery {
+    display: none;
+  }
+
+  .header-list .offers {
+    display: none;
+  }
+
+  .header-list .adoption {
+    display: none;
+  }
+
+  .header-list .contact {
+    display: none;
+  }
+
+  .btn {
+    display: block;
+    padding-top: 30px;
+  }
+}
