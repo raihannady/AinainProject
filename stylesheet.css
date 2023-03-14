@@ -64,3 +64,43 @@ li {
 .btn {
   display: none;
 }
+
+.body{
+    padding: 30px 0px;
+}
+.header-body h2{
+    text-align: center;
+    font-size: 40px;
+}
+.container-body {
+    height: 500px;
+}
+.grid-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: white;
+    padding: 5px 5px;
+  }
+  
+  .items{
+    margin:10px 0px;
+    text-align: center;
+    padding: 50px 0;
+  }
+.items h2{
+    padding-top: 20px;
+}
+  .items p{
+    padding: 20px;
+    color:#717171;
+  }
+  .img-wrapper img{
+    width: 80%;
+    transition: transform .2s; /* Animation */
+  }
+  .img-wrapper img:hover{
+    width: 80%;
+    transform: scale(1.1);
+  }
