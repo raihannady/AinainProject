@@ -114,3 +114,61 @@ li {
     margin: 20px 0px;
     color: rgba(0, 0, 0, 0.7);
   }
+
+  
+  /*css footer*/
+    footer img {
+      width: 75px;
+      padding-left: 10px;
+    }
+  
+    footer p {
+      color: white;
+      font-size: 20px;
+    }
+  
+    footer {
+      background-color: #d35400;
+      padding-top: 30px;
+      padding-bottom: 80px;
+    }
+  
+    ul {
+      list-style: none;
+      margin: 0px;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 20px;
+    }
+  
+    li {
+      color: white;
+      height: 0px;
+      line-height: 30px;
+    }
+  
+    .ubahwarna {
+      filter: brightness(0) invert(1);
+      width: 45px;
+    }
+  
+    .li1 {
+      text-align: left;
+    }
+  
+    .li2 img:hover {
+      transform: scale(1.2);
+    }
+  
+    .li2 {
+      text-align: right;
+    }
+  
+    .flex-list {
+      display: flex;
+      padding-bottom: 20px;
+    }
+  
+    .flex-list li {
+      flex: auto;
+    }

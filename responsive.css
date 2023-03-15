@@ -51,4 +51,16 @@
     flex-direction: column;
     margin: 0 auto;
   }
+
+  /*css footer*/
+    .flex-list {
+      flex-direction: column;
+      padding-bottom: 10px;
+      padding-top: 0;
+    }
+    .flex-list li {
+      margin: 50px auto;
+      text-align: center;
+  
+    }
 }
