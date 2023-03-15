@@ -245,3 +245,46 @@ textarea {
   margin-top: 15px;
   font-size: 15px;
 }
+
+.main{
+  height: 400px;
+  background-image: url("https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
+
+.main-container{
+  width: 100%;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.item-wrapper{
+  text-align:center;
+  float: left;
+}
+
+.item-wrapper h1{
+  font-size: 45px;
+  padding-top: 75px;
+}
+
+.item-wrapper p{
+  font-size: 20px;
+  padding: 20px 0;  
+}
+
+.item-wrapper a{
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 12px 24px;
+  text-decoration:none;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color: #f29c12;
+}
+
+.item-wrapper a:hover{
+  background-color: #d35400;
+}
