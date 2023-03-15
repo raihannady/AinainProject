@@ -172,3 +172,76 @@ li {
     .flex-list li {
       flex: auto;
     }
+    
+/* contact form */
+    .contact-form{
+      padding: 30px 0px;
+  }
+  
+  .header-contact {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+  /*  margin-bottom: 30px;
+    padding: 20px;*/
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  .text-contents-form{
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  .contact-submit{
+    background: #f29c12;
+    color: #889eab;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .contact-submit:hover {
+    opacity: 1;
+  }
+  
+  .clear {
+    clear: left;
+  }
+
+  .container-contact {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .contact-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  
+  .contact-item {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+  }

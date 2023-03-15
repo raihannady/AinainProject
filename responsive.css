@@ -64,3 +64,18 @@
   
     }
 }
+
+/*contact form*/
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .contact-item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  .contact-item {
+    width: 100%;
+  }
