@@ -72,30 +72,6 @@ li {
     text-align: center;
     font-size: 40px;
 }
-.container-body {
-    height: 500px;
-}
-.grid-container {
-    display: grid;
-    align-content: center;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color: white;
-    padding: 5px 5px;
-  }
-  
-  .items{
-    margin:10px 0px;
-    text-align: center;
-    padding: 50px 0;
-  }
-.items h2{
-    padding-top: 20px;
-}
-  .items p{
-    padding: 20px;
-    color:#717171;
-  }
   .img-wrapper img{
     width: 80%;
     transition: transform .2s; /* Animation */
@@ -103,4 +79,38 @@ li {
   .img-wrapper img:hover{
     width: 80%;
     transform: scale(1.1);
+  }
+
+  .container-body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .judul-body {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .col p{
+    padding: 10px;
+    color: dimgrey;
+  }
+
+  .col h2{
+    margin: 20px 0px;
+    color: rgba(0, 0, 0, 0.7);
   }

@@ -45,4 +45,10 @@
     display: block;
     padding-top: 30px;
   }
+
+  .col {
+    flex-basis: 50%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
 }
