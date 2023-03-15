@@ -182,7 +182,8 @@ li {
 .header-contact {
   font-size: 30px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  color: #f29c12;
 }
 input,
 textarea {
@@ -230,7 +231,7 @@ textarea {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   text-align: center;
 }
 
