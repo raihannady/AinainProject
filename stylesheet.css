@@ -48,7 +48,8 @@ li {
 
 .header-logo img {
   float: left;
-  padding: 10px 40px;
+  padding: 15px 40px;
+  height: 50px;
 }
 
 .header-logo p {
@@ -141,6 +142,12 @@ footer {
   background-color: #d35400;
   padding-top: 30px;
   padding-bottom: 80px;
+}
+.footer-logo{
+  padding-left: 20px;
+  width: auto;
+  height: 50px;
+  padding-top: 10px;
 }
 
 ul {
