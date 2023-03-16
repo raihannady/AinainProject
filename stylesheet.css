@@ -1,4 +1,8 @@
 /* Reset CSS (JANGAN DIHAPUS) */
+*{
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 ul,
@@ -24,6 +28,7 @@ body {
 li {
   list-style: none;
 }
+
 
 .header {
   background-color: rgba(255, 65, 0, 0.8);
@@ -60,14 +65,18 @@ li {
 .header-list li {
   float: left;
   padding: 25px 20px;
+  
 }
-
+.header-list a{
+  color: white;
+  text-decoration: none;
+}
 .btn {
   display: none;
 }
 
-.body {
-  padding: 30px 0px;
+.container-body{
+  padding: 120px 0px;
 }
 .header-body h2 {
   text-align: center;
@@ -82,7 +91,7 @@ li {
   transform: scale(1.1);
 }
 
-.container-body {
+.list-body {
   display: flex;
   flex-wrap: wrap;
 }
@@ -90,6 +99,7 @@ li {
 .judul-body {
   font-size: 30px;
   text-align: center;
+  display: block;
   margin-bottom: 60px;
 }
 
@@ -182,16 +192,15 @@ li {
   font-size: 30px;
   text-align: center;
   margin-bottom: 40px;
-  color: #f29c12;
 }
 input,
 textarea {
-  width: 400px;
+  width: 100%;
   margin-top: 10px;
   /*  margin-bottom: 30px;
     padding: 20px;*/
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 10px 0px 10px 10px;
   font-size: 18px;
   border: 1px solid #dee7ec;
 }
@@ -222,16 +231,15 @@ textarea {
 
 .container-contact {
   width: 100%;
-  padding: 0 15px;
+  padding: 0 auto;
   margin: 0 auto;
 }
 
 .contact-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  /* background-color: #f7f7f7; */
+  padding: 110px 5%;
+  background-color: #dee7ec;
   text-align: center;
+  
 }
 
 .contact-item {
@@ -247,25 +255,25 @@ textarea {
 }
 
 .main {
-  height: 400px;
+  padding: 257px 0px;
   background-image: url('https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-size: cover;
 }
 
 .main-container {
   width: 100%;
-  padding: 0 80px;
   margin: 0 auto;
 }
 
 .item-wrapper {
   text-align: center;
-  float: left;
+  color: white;
+  display: inline-block;
+  margin: 0px 150px;
 }
 
 .item-wrapper h1 {
   font-size: 45px;
-  padding-top: 75px;
 }
 
 .item-wrapper p {

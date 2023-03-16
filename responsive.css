@@ -53,6 +53,18 @@
     margin: 0 auto;
   }
 
+  .item-wrapper {
+    text-align: center;
+    display: block;
+}
+  
+
+  
+.item-wrapper h1{
+    font-size: 52px;
+    text-align: center;
+}
+
   /*css footer*/
     .flex-list {
       flex-direction: column;
@@ -75,12 +87,9 @@
   }
 
   /* responsive main tablet*/
-  .main-container {
-      padding: 20px 0 0 0; 
-  }
   .item-wrapper {
-      float: none;
       text-align: center;
+      display: block;
   }
     
   .item-wrapper p{
